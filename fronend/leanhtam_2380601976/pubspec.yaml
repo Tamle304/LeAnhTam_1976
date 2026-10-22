@@ -1,0 +1,35 @@
+name: leanhtam_2380601976
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  shared_preferences: ^2.2.2
+  jwt_decoder: ^2.0.1
+  flutter_dotenv: ^5.1.0
+
+  # Các tính năng tích hợp
+  local_auth: ^2.1.8
+  mobile_scanner: ^5.0.0
+  geolocator: ^11.0.0
+  google_mlkit_text_recognition: ^0.13.0
+  google_mlkit_translation: ^0.11.1
+  image_picker: ^1.0.7
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
